@@ -1,0 +1,8 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    color: hsl(240, 26%, 75%);
+    line-height: 1.7;
+    overflow-x: hidden;
+    background: hsl(240, 48%, 15% );
+}
+
