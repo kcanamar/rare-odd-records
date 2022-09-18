@@ -1,0 +1,18 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    color: hsl(240, 26%, 75%);
+    line-height: 1.7;
+    overflow-x: hidden;
+    background: hsl(240, 48%, 15% );
+}
+
