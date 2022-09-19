@@ -15,7 +15,7 @@ export default function Nav () {
       <StyledContainer className='nav'>
         <StyledLink
           to="/"
-          onClick={() => setActiveNav('#')}
+          onClick={() => setNavShow(false)}
         >
           <StyledImage className="logo" src={logo} alt="Nav Logo"/>
         </StyledLink>
@@ -24,7 +24,7 @@ export default function Nav () {
             links.map(({name, path}, index) => {
               return (
                 <NavItem key={index}>
-                  <StyledNavLink className={activeNav === name ? 'active' : ''} to={path}>{name}</StyledNavLink>
+                  <StyledNavLink className={activeNav === name ? 'active' : ''} onClick={() => setNavShow(!navShow)} to={path}>{name}</StyledNavLink>
                 </NavItem>
               )
             })

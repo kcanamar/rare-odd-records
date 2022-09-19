@@ -9,10 +9,6 @@ export const links = [
         path: '/about',
     },
     {
-        name: 'Gallery',
-        path: '/gallery',
-    },
-    {
         name: 'Artists',
         path: '/artists',
     },

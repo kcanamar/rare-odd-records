@@ -8,7 +8,7 @@ width: 100vw;
 background: ${theme.primary};
 display: grid;
 place-items: center;
-position: fixed;
+// position: fixed;
 top: 0;
 left: 0;
 z-index: 99;

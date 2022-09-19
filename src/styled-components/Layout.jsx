@@ -22,6 +22,10 @@ export const StyledContainer = styled.div`
           
         }
     }
+
+    &.home-header {
+        
+    }
     
     
 `
