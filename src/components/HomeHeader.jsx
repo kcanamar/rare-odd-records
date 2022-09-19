@@ -7,12 +7,12 @@ export default function HomeHeader(){
         <StyledHomeHeader>
             <StyledContainer className="home-header">
                 <HomeHeaderLeft>
-                    <StyledH4>#100 Days Of Music</StyledH4>
+                    <StyledH4 className="hh">#100 Days Of Music</StyledH4>
                     <StyledH1>Join the community</StyledH1>
                     <p>
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure tempora dicta et sed nemo? Laudantium ratione inventore, quaerat eveniet dolorum omnis ea aperiam voluptatem autem delectus, iusto totam voluptas velit?
                     </p>
-                    <StyledButton>
+                    <StyledButton className="hh-button lg">
                         <StyledLink to="/contact" className="hh-left">Let's Go</StyledLink>
                     </StyledButton>
                 </HomeHeaderLeft>
