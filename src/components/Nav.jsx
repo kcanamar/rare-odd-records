@@ -1,6 +1,6 @@
 import React from 'react'
-import { StyledNav, StyledLink, NavLinkList, NavItem, StyledNavLink } from '../styled-components/Nav.jsx'
-import { Button, Container, StyledImage } from '../styled-components/Layout.jsx'
+import { StyledNav, NavLinkList, NavItem, StyledNavLink } from '../styled-components/Nav.jsx'
+import { StyledButton, StyledContainer, StyledLink, StyledImage } from '../styled-components/Layout.jsx'
 import {useState} from "react"
 import { links } from '../testing.js'
 import {VscChromeClose, VscThreeBars} from 'react-icons/vsc'
@@ -12,7 +12,7 @@ export default function Nav () {
 
   return (
     <StyledNav>
-      <Container className='nav'>
+      <StyledContainer className='nav'>
         <StyledLink
           to="/"
           onClick={() => setActiveNav('#')}
@@ -30,12 +30,12 @@ export default function Nav () {
             })
           }
         </NavLinkList>
-        <Button className="nav-menu" onClick={() => setNavShow(!navShow)}>
+        <StyledButton className="nav-menu" onClick={() => setNavShow(!navShow)}>
           {
             navShow ? <VscChromeClose/> : <VscThreeBars/>
           }
-        </Button>
-      </Container>
+        </StyledButton>
+      </StyledContainer>
     </StyledNav>
   )
 }

@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom";
 import styled from "styled-components";
 import theme from "../assets/theme";
 
-export const Container = styled.div` 
+export const StyledContainer = styled.div` 
     width: ${theme.wlg};
     max-width: 1920px;
     margin-inline: auto;
@@ -21,11 +22,11 @@ export const Container = styled.div`
           
         }
     }
-
+    
     
 `
 
-export const Button = styled.button`
+export const StyledButton = styled.button`
     &.nav-menu{
         display: none;
 
@@ -87,5 +88,10 @@ export const StyledH5 = styled.h5`
 export const StyledH6 = styled.h6`
     line-height: 1.2;
     color: ${theme.gray1};
+
+`
+
+export const StyledLink = styled(Link)`
+    text-decoration: none
 
 `

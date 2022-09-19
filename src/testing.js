@@ -1,18 +1,23 @@
 export const links = [
     {
-        name: 'about',
+        // todo? work out how to have home navigate to "/" not "/home"
+        name: 'Home',
+        path: '/home',
+    },
+    {
+        name: 'About',
         path: '/about',
     },
     {
-        name: 'gallery',
+        name: 'Gallery',
         path: '/gallery',
     },
     {
-        name: 'artists',
+        name: 'Artists',
         path: '/artists',
     },
     {
-        name: 'contact',
+        name: 'Contact',
         path: '/contact',
     }
 ]
