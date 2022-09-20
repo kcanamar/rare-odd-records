@@ -1,5 +1,5 @@
 import styled from 'styled-components'
-import { theme } from '../assets/theme'
+import theme from '../assets/theme.js'
 
 export const StyledHomeHeader = styled.header`
   width: 100vw;
@@ -28,7 +28,7 @@ export const HomeHeaderRight = styled.div`
 export const HomeHeaderCircle = styled.div`
     width: 25rem;
     height: 25rem;
-    // background: linear-gradient(75deg, #ffb116, transparent);
+    // background: linear-gradient(75deg, ${theme.secondary}, transparent);
     border-radius: 50%;
     position: absolute;
     filter: blur(15px);
