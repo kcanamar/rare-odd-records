@@ -1,7 +1,7 @@
 import { StyledButton, StyledContainer, StyledH4, StyledLink, StyledSection } from "../styled-components/Layout"
 import { FaCrown } from "react-icons/fa"
 import {BsFillCaretRightFill} from "react-icons/bs"
-import SectionHead from "./SectionHead"
+import SectionHead from "./util/SectionHead"
 import { StyledPlanSmall, StyledPlanWrapper, StyledPlanSpan } from "../styled-components/Plans"
 import { plans } from "../testing"
 import Card from "./util/Card"

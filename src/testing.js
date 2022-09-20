@@ -52,3 +52,29 @@ export const plans = [
     }
 ]
 
+export const mission = [
+    {
+        id: 1,
+        icon: <BiMusic/>,
+        title: "Mission 1",
+        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem aliquam doloribus?", 
+    },
+    {
+        id: 2,
+        icon: <BiMusic/>,
+        title: "Mission 2",
+        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem aliquam doloribus?", 
+    },
+    {
+        id: 3,
+        icon: <BiMusic/>,
+        title: "Mission 3",
+        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem aliquam doloribus?", 
+    },
+    {
+        id: 4,
+        icon: <BiMusic/>,
+        title: "Mission 4",
+        desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem aliquam doloribus?", 
+    },
+]

@@ -6,6 +6,7 @@ export const StyledContainer = styled.div`
   width: ${theme.wlg};
   max-width: 1920px;
   margin-inline: auto;
+  margin-top: 15rem;
 
   &.nav {
     height: 100%;
@@ -28,6 +29,12 @@ export const StyledContainer = styled.div`
     align-items: center;
     justify-content: space-bewtween;
     gap: 6rem;
+  }
+
+  &.mission {
+    display: grid;
+    grid-template-columns: 38% 50%;
+    gap: 12%;
   }
 `
 
@@ -125,7 +132,7 @@ export const StyledH4 = styled.h4`
     font-weight: 400;
   }
 
-  &.plans {
+  &.mission {
 
   }
 `

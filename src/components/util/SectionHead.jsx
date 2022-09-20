@@ -1,4 +1,4 @@
-import { StyledH2, StyledHead, StyledHeadSpan } from "../styled-components/Layout";
+import { StyledH2, StyledHead, StyledHeadSpan } from "../../styled-components/Layout";
 
 export default function SectionHead({icon, title, className}){
     return (

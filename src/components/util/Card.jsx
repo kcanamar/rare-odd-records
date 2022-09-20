@@ -1,5 +1,6 @@
 import styled from "styled-components"
 import theme from "../../assets/theme.js"
+import { StyledMissionSpan } from "../../styled-components/Mission.jsx"
 
 const StyledCardArticle = styled.article`
     background: ${theme.gray5};
@@ -25,6 +26,17 @@ const StyledCardArticle = styled.article`
         }
     }
 
+    &.mission {
+        padding-top: 3.5rem;
+        text-align: left;
+        position: relative;
+
+        ${StyledMissionSpan} {
+            position: absolute;
+            top: -1.5rem;
+        }
+    }
+    
 `
 
 export default function Card({className, children}){
