@@ -1,6 +1,7 @@
 import HomeHeader from "../components/HomeHeader";
 import Plans from "../components/Plans";
 import Mission from "../components/Mission";
+import Feed from "../components/Feed";
 
 export default function Home() {
     return (
@@ -8,6 +9,7 @@ export default function Home() {
         <HomeHeader/>
         <Plans/>
         <Mission/>
+        <Feed/>
       </>
     );
   }

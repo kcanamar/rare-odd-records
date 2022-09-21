@@ -1,5 +1,7 @@
 import {BiMusic} from "react-icons/bi"
 
+
+
 export const links = [
     {
         // todo? work out how to have home navigate to "/" not "/home"
@@ -77,4 +79,37 @@ export const mission = [
         title: "Mission 4",
         desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem aliquam doloribus?", 
     },
+]
+
+export const feed = [
+    {
+        id: 1,
+        question: "Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem ",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus saepe voluptate ea? Mollitia, reprehenderit corrupti repellendus sapiente expedita maxime fuga ab ut beatae! Eligendi necessitatibus voluptatibus blanditiis, nisi ut fugiat molestiae vel, maiores laudantium repudiandae architecto, atque ea adipisci!"
+    },
+    {
+        id: 2,
+        question: "Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem ",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus saepe voluptate ea? Mollitia, reprehenderit corrupti repellendus sapiente expedita maxime fuga ab ut beatae! Eligendi necessitatibus voluptatibus blanditiis, nisi ut fugiat molestiae vel, maiores laudantium repudiandae architecto, atque ea adipisci!"
+    },
+    {
+        id: 3,
+        question: "Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem ",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus saepe voluptate ea? Mollitia, reprehenderit corrupti repellendus sapiente expedita maxime fuga ab ut beatae! Eligendi necessitatibus voluptatibus blanditiis, nisi ut fugiat molestiae vel, maiores laudantium repudiandae architecto, atque ea adipisci!"
+    },
+    {
+        id: 4,
+        question: "Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem ",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus saepe voluptate ea? Mollitia, reprehenderit corrupti repellendus sapiente expedita maxime fuga ab ut beatae! Eligendi necessitatibus voluptatibus blanditiis, nisi ut fugiat molestiae vel, maiores laudantium repudiandae architecto, atque ea adipisci!"
+    },
+    {
+        id: 5,
+        question: "Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem ",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus saepe voluptate ea? Mollitia, reprehenderit corrupti repellendus sapiente expedita maxime fuga ab ut beatae! Eligendi necessitatibus voluptatibus blanditiis, nisi ut fugiat molestiae vel, maiores laudantium repudiandae architecto, atque ea adipisci!"
+    },
+    {
+        id: 6,
+        question: "Error culpa neque fuga inventore consequuntur suscipit harum enim exercitationem ",
+        answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus saepe voluptate ea? Mollitia, reprehenderit corrupti repellendus sapiente expedita maxime fuga ab ut beatae! Eligendi necessitatibus voluptatibus blanditiis, nisi ut fugiat molestiae vel, maiores laudantium repudiandae architecto, atque ea adipisci!"
+    }
 ]

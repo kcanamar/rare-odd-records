@@ -35,6 +35,10 @@ export const StyledContainer = styled.div`
     grid-template-columns: 38% 50%;
     gap: 12%;
   }
+
+  &.feed {
+
+  }
 `
 
 export const StyledButton = styled.button`
@@ -92,6 +96,11 @@ export const StyledButton = styled.button`
     font-size: 0.9rem;
   }
 
+  &.feed-item {
+      background: transparent;
+      color: ${theme.gray1};
+      font-size: 1.5rem;
+  }
 `
 
 export const StyledImage = styled.img`
