@@ -29,6 +29,24 @@ export const StyledContainer = styled.div`
     justify-content: space-bewtween;
     gap: 6rem;
   }
+
+  &.about_story_container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+  }
+
+  &.mission_story_container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+  }
+
+  &.vision_story_container{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+  }
 `
 
 export const StyledButton = styled.button`
@@ -98,6 +116,10 @@ export const StyledH2 = styled.h2`
   line-height: 1.2;
   color: ${theme.gray1};
   font-size: 2rem;
+
+  &.header {
+    margin-bottom: 1rem;
+  }
 `
 
 export const StyledH3 = styled.h3`

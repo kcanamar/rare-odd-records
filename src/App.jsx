@@ -5,6 +5,7 @@ import Contact from './pages/contact'
 import Home from './pages/home'
 import NotFound from './pages/notFound'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 export default function App () {
   return (
@@ -17,6 +18,7 @@ export default function App () {
         <Route path="contact" element={<Contact/>}/>
         <Route path="*" element={<NotFound/>}/>
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
