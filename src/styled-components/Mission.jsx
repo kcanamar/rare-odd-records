@@ -2,7 +2,7 @@ import styled from "styled-components";
 import theme from "../assets/theme";
 
 export const MissionSection = styled.section`
-
+    margin-top: 10rem;
 `
 
 export const MissionLeft = styled.div`

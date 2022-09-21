@@ -6,7 +6,6 @@ export const StyledContainer = styled.div`
   width: ${theme.wlg};
   max-width: 1920px;
   margin-inline: auto;
-  margin-top: 15rem;
 
   &.nav {
     height: 100%;
@@ -160,11 +159,7 @@ export const StyledLink = styled(Link)`
 `
 
 export const StyledSection = styled.section`
-  margin-top: 10rem;
 
-  &.plans {
-    margin-top: 4rem;
-  }
 `
 
 export const StyledHead = styled.div`
