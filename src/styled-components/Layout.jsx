@@ -36,8 +36,10 @@ export const StyledContainer = styled.div`
     gap: 12%;
   }
 
-  &.feed {
-
+  &.footer {
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap: 6rem;
   }
 `
 
@@ -110,6 +112,7 @@ export const StyledImage = styled.img`
 
   &.logo {
     width: 5rem;
+    display: block;
   }
 `
 
@@ -140,8 +143,9 @@ export const StyledH4 = styled.h4`
     font-weight: 400;
   }
 
-  &.mission {
-
+  &.footer-links {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
   }
 `
 
