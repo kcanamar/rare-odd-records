@@ -40,6 +40,30 @@ export const StyledContainer = styled.div`
     display: grid;
     grid-template-columns: 26rem 1fr 1fr 1fr;
     gap: 6rem;
+    
+  &.about_story_container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+  }
+
+  &.mission_story_container{
+    display: grid;
+    grid-template-columns: 40% 50%;
+    gap: 10%;
+  }
+
+  &.vision_story_container{
+    display: grid;
+    grid-template-columns: 50% 40%;
+    gap: 10%;
+  }
+
+  &.contact_container{
+    margin-top: 7rem;
+    display: grid;
+    place-items: center;
+
   }
 `
 
@@ -126,6 +150,10 @@ export const StyledH2 = styled.h2`
   line-height: 1.2;
   color: ${theme.gray1};
   font-size: 2rem;
+
+  &.header {
+    margin-bottom: 1rem;
+  }
 `
 
 export const StyledH3 = styled.h3`
