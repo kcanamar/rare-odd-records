@@ -47,6 +47,12 @@ export const StyledContainer = styled.div`
     grid-template-columns: 50% 40%;
     gap: 10%;
   }
+
+  &.contact_container{
+    margin-top: 7rem;
+    display: grid;
+    place-items: center;
+  }
 `
 
 export const StyledButton = styled.button`

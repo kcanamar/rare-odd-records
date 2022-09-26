@@ -38,7 +38,7 @@ export const StyledHeaderContent = styled.div`
     color: rgba(255, 255, 255, 0.8);
 
     media screen and (max-width: 600px) {
-        font-size: 0.85;
+        font-size: 0.85rem;
     }
   }
 
