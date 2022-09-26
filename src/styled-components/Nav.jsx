@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 import theme from '../assets/theme.js'
-import { Link, NavLink } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
 
 export const StyledNav = styled.nav`
 height: 5rem;
@@ -8,7 +8,7 @@ width: 100vw;
 background: ${theme.primary};
 display: grid;
 place-items: center;
-position: fixed;
+// position: fixed;
 top: 0;
 left: 0;
 z-index: 99;
@@ -96,9 +96,4 @@ export const StyledNavLink  = styled(NavLink)`
   @media screen and (max-width: 600px){
     
   }
-`
-
-export const StyledLink = styled(Link)`
-    text-decoration: none
-
 `
