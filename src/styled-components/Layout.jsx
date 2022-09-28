@@ -7,6 +7,10 @@ export const StyledContainer = styled.div`
   max-width: 1920px;
   margin-inline: auto;
 
+  @media screen and (max-width: 1024px) {
+    width: ${theme.wmd};
+  }
+  
   &.nav {
     height: 100%;
     display: flex;
@@ -28,19 +32,44 @@ export const StyledContainer = styled.div`
     align-items: center;
     justify-content: space-bewtween;
     gap: 6rem;
+    @media screen and (max-width: 1024px) {
+      gap: 0;
+    }
+    
+    @media screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
   }
 
   &.mission {
     display: grid;
     grid-template-columns: 38% 50%;
     gap: 12%;
+    @media screen and (max-width: 1024px) {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      gap: 4rem;
+    }
+    
+    @media screen and (max-width: 600px) {
+    }
   }
 
   &.footer {
     display: grid;
     grid-template-columns: 26rem 1fr 1fr 1fr;
     gap: 6rem;
-    
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+      
+    @media screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
+  }
+
   &.about_story_container{
     display: grid;
     grid-template-columns: 40% 50%;
@@ -144,6 +173,15 @@ export const StyledH1 = styled.h1`
   line-height: 1.2;
   color: ${theme.gray1};
   font-size: 3rem;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 2.2rem;
+    line-height: 1.3;
+  }
 `
 
 export const StyledH2 = styled.h2`
@@ -153,6 +191,10 @@ export const StyledH2 = styled.h2`
 
   &.header {
     margin-bottom: 1rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 1.6rem;
   }
 `
 

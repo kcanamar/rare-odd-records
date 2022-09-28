@@ -6,7 +6,9 @@ export const MissionSection = styled.section`
 `
 
 export const MissionLeft = styled.div`
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 `
 
 export const MissionRight = styled.div`
@@ -22,12 +24,27 @@ export const MissionImage = styled.div`
     &:hover{
         filter: saturate(1);
     }
+    @media screen and (max-width: 1024px) {
+        display: none;
+    }
+      
+    @media screen and (max-width: 600px) {
+    }
 `
 
 export const MissionWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 3.4rem 2.4rem;
+    @media screen and (max-width: 1024px) {
+        gap: 4rem 3rem;
+
+    }
+      
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+    }
 `
 
 export const StyledMissionSpan = styled.span`
