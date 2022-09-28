@@ -26,6 +26,13 @@ const StyledCardArticle = styled.article`
         }
     }
 
+    &.plans {
+        @media screen and (max-width: 600px) {
+            width: 84%;
+            margin: 0 auto;
+        }
+    }
+
     &.mission {
         padding-top: 3.5rem;
         text-align: left;
@@ -34,6 +41,15 @@ const StyledCardArticle = styled.article`
         ${StyledMissionSpan} {
             position: absolute;
             top: -1.5rem;
+        }
+
+        @media screen and (max-width: 1024px) {
+        
+        }
+          
+        @media screen and (max-width: 600px) {
+            width: 84%;
+            margin-inline: auto;
         }
     }
     

@@ -12,7 +12,7 @@ export default function Mission() {
             <StyledContainer className="mission">
                 <MissionLeft>
                     <MissionImage>
-                        <img src={image} alt="Mission Image" />
+                        <img src={image} alt="Mission" />
                     </MissionImage>
                 </MissionLeft>
                 <MissionRight>
