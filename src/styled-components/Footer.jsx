@@ -7,6 +7,10 @@ export const StyledFooter = styled.footer`
     padding-top: 7rem;
     font-size: 0.9rem;
     color: ${theme.gray1};
+      
+    @media screen and (max-width: 600px) {
+        margin-top: 4rem;
+    }
 
 `
 
@@ -15,10 +19,18 @@ export const FooterArticle = styled.article`
     flex-direction: column;
     align-items: flex-start;
     gap: 0.7rem;
+
+    @media screen and (max-width: 600px) {
+        align-items: center;
+    }
 `
 
 export const StyledFooterP = styled.p`
     margin-top: 0.5rem;
+    
+    @media screen and (max-width: 600px) {
+        text-align: center;
+    }
 `
 
 export const FooterSocials = styled.div`

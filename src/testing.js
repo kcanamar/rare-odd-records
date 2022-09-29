@@ -1,12 +1,14 @@
-import {BiMusic} from "react-icons/bi"
 
+
+import lvdaking from "./assets/images/lvda-king.png"
+import flaristole from "./assets/images/flaristole.png"
+import {BiMusic} from "react-icons/bi"
 
 
 export const links = [
     {
-        // todo? work out how to have home navigate to "/" not "/home"
         name: 'Home',
-        path: '/home',
+        path: '/',
     },
     {
         name: 'About',
@@ -22,6 +24,70 @@ export const links = [
     }
 ]
 
+
+export const artists = [
+  {
+    id: 1,
+    image: flaristole,
+    name: "Flaristole",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+
+  {
+    id: 2,
+    image: lvdaking,
+    name: "LV da King",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+  {
+    id: 1,
+    image: flaristole,
+    name: "Flaristole",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+  {
+    id: 1,
+    image: flaristole,
+    name: "Flaristole",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+  {
+    id: 1,
+    image: flaristole,
+    name: "Flaristole",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+];
 
 export const plans = [
     {
@@ -113,3 +179,4 @@ export const feed = [
         answer: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat temporibus saepe voluptate ea? Mollitia, reprehenderit corrupti repellendus sapiente expedita maxime fuga ab ut beatae! Eligendi necessitatibus voluptatibus blanditiis, nisi ut fugiat molestiae vel, maiores laudantium repudiandae architecto, atque ea adipisci!"
     }
 ]
+

@@ -7,7 +7,6 @@ import {VscChromeClose, VscThreeBars} from 'react-icons/vsc'
 import logo from "../assets/images/logo-black.png"
 export default function Nav () {
 
-  const [activeNav, setActiveNav] = useState('#')
   const [navShow, setNavShow] = useState(false)
 
   return (
@@ -24,7 +23,7 @@ export default function Nav () {
             links.map(({name, path}, index) => {
               return (
                 <NavItem key={index}>
-                  <StyledNavLink className={activeNav === name ? 'active' : ''} onClick={() => setNavShow(!navShow)} to={path}>{name}</StyledNavLink>
+                  <StyledNavLink className={''} onClick={() => setNavShow(!navShow)} to={path}>{name}</StyledNavLink>
                 </NavItem>
               )
             })

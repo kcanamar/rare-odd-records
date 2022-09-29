@@ -16,7 +16,7 @@ export const StyledAboutSection = styled.section`
   }
 `
 export const StyledAboutImageSection = styled.div`
-
+ 
 
 `
 export const StyledAboutImage = styled.img`
