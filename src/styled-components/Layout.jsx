@@ -53,6 +53,29 @@ export const StyledContainer = styled.div`
     display: grid;
     place-items: center;
   }
+
+  &.notfound_container {
+    text-align: center;
+    padding-top: 8rem;
+
+  }
+
+  &.artists_container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem; 
+    margin-top: 2rem;
+
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: 1fr 1fr;
+        gap: 2.5rem;
+    }
+
+    @media screen and (max-width: 600px) {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+  }
 `
 
 export const StyledButton = styled.button`
@@ -71,7 +94,7 @@ export const StyledButton = styled.button`
     }
   }
 
-  &.hh-button {
+  &.hh-button, &.notfound {
     color: ${theme.gray1};
     width: fit-content;
     margin: 0 auto;
@@ -79,7 +102,14 @@ export const StyledButton = styled.button`
     background: ${theme.primary};
     border-radius: 1.5rem;
     transition: ${theme.transition}
+
   }
+
+  &.notfound{
+    margin-top: 2rem;
+    display: inline-block;
+  }
+
 
   &.hh-button:hover {
     background: ${theme.secondary};
@@ -156,4 +186,6 @@ export const StyledH6 = styled.h6`
 
 export const StyledLink = styled(Link)`
   text-decoration: none;
+
+  
 `

@@ -1,3 +1,7 @@
+
+import lvdaking from "./assets/images/lvda-king.png"
+import flaristole from "./assets/images/flaristole.png"
+
 export const links = [
 
     {
@@ -18,3 +22,157 @@ export const links = [
         path: '/contact',
     }
 ]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+export const artists = [
+  {
+    id: 1,
+    image: flaristole,
+    name: "Flaristole",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+
+  {
+    id: 2,
+    image: lvdaking,
+    name: "LV da King",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+  {
+    id: 1,
+    image: flaristole,
+    name: "Flaristole",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+  {
+    id: 1,
+    image: flaristole,
+    name: "Flaristole",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+  {
+    id: 1,
+    image: flaristole,
+    name: "Flaristole",
+    genre: "Hip Hop",
+    socials: [
+      "https://instagram.com/",
+      "https://twitter.com/",
+      "https://facebook.com/",
+      "https://spotify.com/",
+    ],
+  },
+];
