@@ -27,6 +27,7 @@ export const StyledHeaderContainerBg = styled.div`
 
 export const StyledHeaderImage = styled.img`
   opacity: 0.6;
+  
 `
 export const StyledHeaderContent = styled.div`
   position: relative;

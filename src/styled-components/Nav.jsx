@@ -18,12 +18,14 @@ export const NavLinkList = styled.ul`
   gap: 3.5rem;
   align-items: center;
 
+
   @media screen and (max-width: 1024px){
     position: absolute;
     top: 100%;
     right: 0;
     flex-direction: column;
     gap: 0;
+    z-index: 1000;
 
     &.show{
       display: flex;
@@ -35,7 +37,6 @@ export const NavLinkList = styled.ul`
   }
 
   @media screen and (max-width: 600px){
-    
   }
 `
 
