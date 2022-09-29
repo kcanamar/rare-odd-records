@@ -53,6 +53,44 @@ const StyledCardArticle = styled.article`
         }
     }
     
+      &.artist {
+    padding: 1rem;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 2rem;
+    
+    &:hover {
+        background: ${theme.primary}
+    }
+
+    a {
+        background: ${theme.primary}
+    }
+    &:hover a {
+        background: ${theme.secondary}
+    }
+
+    h3 {
+      margin-top: 2rem;
+    }
+
+    p {
+      margin-top: 0.5rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    @media screen and (max-width: 600px) {
+            width: 90%;
+            margin: 0 auto;
+            
+
+    }
+  }
+    
 `
 
 export default function Card({className, children}){
@@ -62,3 +100,4 @@ export default function Card({className, children}){
         </StyledCardArticle>
     )
 }
+
