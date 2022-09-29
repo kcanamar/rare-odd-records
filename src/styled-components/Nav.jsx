@@ -8,7 +8,6 @@ width: 100vw;
 background: ${theme.primary};
 display: grid;
 place-items: center;
-// position: fixed;
 top: 0;
 left: 0;
 z-index: 99;
@@ -59,32 +58,32 @@ export const StyledNavLink  = styled(NavLink)`
   &:hover {
     color: ${theme.secondary};
   }
-  &.active{
-    position: relative;
-  }
+  // &.active{
+  //   position: relative;
+  // }
 
-  &.active:after {
-    {
-      content: '';
-      display: block;
-      width: 1.2rem;
-      height: 1.2rem;
-      background: ${theme.primary};
-      color: ${theme.white};
-      position: absolute;
-      left: calc(50% - 0.6rem);
-      transform: rotate(45deg);
-      margin-top: 0.9rem;
-    }
+  // &.active:after {
+  //   {
+  //     content: '';
+  //     display: block;
+  //     width: 1.2rem;
+  //     height: 1.2rem;
+  //     background: ${theme.primary};
+  //     color: ${theme.white};
+  //     position: absolute;
+  //     left: calc(50% - 0.6rem);
+  //     transform: rotate(45deg);
+  //     margin-top: 0.9rem;
+  //   }
   }
 
   @media screen and (max-width: 1024px){
-    &.active {
-      color: ${theme.secondary};
-    }
-    &.active:after {
-      display: none;
-    }
+    // &.active {
+    //   color: ${theme.secondary};
+    // }
+    // &.active:after {
+    //   display: none;
+    // }
     background: ${theme.primary};
     height: 100%;
     width: 100%;

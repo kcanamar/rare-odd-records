@@ -7,6 +7,10 @@ export const StyledContainer = styled.div`
   max-width: 1920px;
   margin-inline: auto;
 
+  @media screen and (max-width: 1024px) {
+    width: ${theme.wmd};
+  }
+  
   &.nav {
     height: 100%;
     display: flex;
@@ -28,6 +32,42 @@ export const StyledContainer = styled.div`
     align-items: center;
     justify-content: space-bewtween;
     gap: 6rem;
+    @media screen and (max-width: 1024px) {
+      gap: 0;
+    }
+    
+    @media screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &.mission {
+    display: grid;
+    grid-template-columns: 38% 50%;
+    gap: 12%;
+    @media screen and (max-width: 1024px) {
+      grid-template-columns: 1fr;
+      justify-content: center;
+      gap: 4rem;
+    }
+    
+    @media screen and (max-width: 600px) {
+    }
+  }
+
+  &.footer {
+    display: grid;
+    grid-template-columns: 26rem 1fr 1fr 1fr;
+    gap: 6rem;
+    @media screen and (max-width: 1024px) {
+        grid-template-columns: 1fr 1fr;
+        gap: 4rem;
+    }
+      
+    @media screen and (max-width: 600px) {
+      grid-template-columns: 1fr;
+      gap: 3rem;
+    }
   }
 
   &.about_story_container{
@@ -52,6 +92,7 @@ export const StyledContainer = styled.div`
     margin-top: 7rem;
     display: grid;
     place-items: center;
+
   }
 
   &.notfound_container {
@@ -94,7 +135,9 @@ export const StyledButton = styled.button`
     }
   }
 
-  &.hh-button, &.notfound {
+
+  &.hh-button, &.plans, &.notfound {
+
     color: ${theme.gray1};
     width: fit-content;
     margin: 0 auto;
@@ -116,6 +159,19 @@ export const StyledButton = styled.button`
     color: ${theme.gray6};
   }
 
+  &.plans {
+    margin-top: 2.5rem;
+
+    &.plans:hover {
+      background: ${theme.secondary};
+      color: ${theme.gray6};
+
+      a {
+        color: ${theme.gray6};
+      }
+    }
+  }
+
   &.lg {
     padding: 1.2rem 3rem;
     border-radius: 2rem;
@@ -127,8 +183,10 @@ export const StyledButton = styled.button`
     font-size: 0.9rem;
   }
 
-  &.sm:hover {
-    background: ${theme.gray1}
+  &.feed-item {
+      background: transparent;
+      color: ${theme.gray1};
+      font-size: 1.5rem;
   }
 `
 
@@ -139,6 +197,7 @@ export const StyledImage = styled.img`
 
   &.logo {
     width: 5rem;
+    display: block;
   }
 `
 
@@ -146,6 +205,15 @@ export const StyledH1 = styled.h1`
   line-height: 1.2;
   color: ${theme.gray1};
   font-size: 3rem;
+
+  @media screen and (max-width: 1024px) {
+    font-size: 2rem;
+  }
+
+  @media screen and (max-width: 600px) {
+    font-size: 2.2rem;
+    line-height: 1.3;
+  }
 `
 
 export const StyledH2 = styled.h2`
@@ -155,6 +223,10 @@ export const StyledH2 = styled.h2`
 
   &.header {
     margin-bottom: 1rem;
+  }
+
+  @media screen and (max-width: 1024px) {
+    font-size: 1.6rem;
   }
 `
 
@@ -172,6 +244,11 @@ export const StyledH4 = styled.h4`
     color: ${theme.secondary};
     font-weight: 400;
   }
+
+  &.footer-links {
+    margin-bottom: 0.6rem;
+    font-size: 1rem;
+  }
 `
 
 export const StyledH5 = styled.h5`
@@ -187,5 +264,31 @@ export const StyledH6 = styled.h6`
 export const StyledLink = styled(Link)`
   text-decoration: none;
 
+  color: ${theme.gray1};
+
+  &.plans {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   
+`
+
+export const StyledSection = styled.section`
+
+`
+
+export const StyledHead = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+`
+
+export const StyledHeadSpan = styled.span`
+  background: ${theme.gray5};
+  padding: 0.8rem;
+  border-radius: 1rem;
+  color: ${theme.secondary};
+  font-size: 1.5rem;
 `
